@@ -10,8 +10,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 
 BASE_MODEL = "HuggingFaceTB/SmolLM2-1.7B-Instruct"
-ADAPTER_PATH = "./smollm2_pixceltree_final"
-OUTPUT_PATH = "./babypix1_merged"
+ADAPTER_PATH = "./smollm2_babypix1_general_final"
+OUTPUT_PATH = "./babypix1_general_merged"
 
 print("Loading base SmolLM2 model...")
 base_model = AutoModelForCausalLM.from_pretrained(

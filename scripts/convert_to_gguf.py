@@ -9,8 +9,8 @@ import os
 import subprocess
 import sys
 
-MERGED_PATH = "./babypix1_merged"
-GGUF_PATH = "./babypix1.gguf"
+MERGED_PATH = "./babypix1_general_merged"
+GGUF_PATH = "./babypix1_general.gguf"
 LLAMA_CPP_PATH = "./llama.cpp"
 CONVERT_SCRIPT = os.path.join(LLAMA_CPP_PATH, "convert_hf_to_gguf.py")
 
