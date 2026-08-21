@@ -16,7 +16,7 @@ venv/
 *.pth
 
 # Ollama
-Modelfile
+Modelfile_coding
 
 # llama.cpp
 llama.cpp/
